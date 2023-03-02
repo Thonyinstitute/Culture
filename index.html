@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name = "description" content="play against the computer, Paper, Rock, Lizard and Scissors. Spock game  ">
+    <meta name="Keywords" content="Spock game against computer">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4abd417607.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <style></style> 
+    <title>Spocky Time</title>
+</head>
+<body>
+    <Header id="logo"> 
+        <h1>Play against the computer</h1></Header>
+    <h2 class="game">Let's Play</h2>
+
+    <section id="game-area">
+            <p class="icon">
+                <span class="text-label">Rock</span>
+            </p>
+            <br>
+            <span icon-type="rock" id="rock" class="rock"><i aria-label="rock" class="fa-regular fa-hand-back-fist"></i>
+            </span>
+            <p class="icon">
+                <span class="text-label">Scissors</span>
+            </p>
+            <br>
+            <span icon-type="scissors" id="scissors" class="scissors"><i aria-label="scissors" class="fa-regular fa-hand-scissors"></i>
+            </span>
+            <p class="icon">
+                <span class="text-label">Paper</span>
+            </p>
+            <br>
+            <span icon-type="hand" id="hand" class="hand"><i aria-label="hand" class="fa-regular fa-hand"></i>
+            </span>
+            <p class="icon">
+                <span class="text-label">Lizard</span>
+            </p>
+            <br>
+            <span icon-type="lizard" id="lizard" class="lizard"><i aria-label="lizard" class="fa-solid fa-hand-lizard"></i>
+            </span>
+            <p class="icon">
+                <span class="text-label">Spock</span>
+            </p>
+            <span icon-type="spock" id="spock" class="spock"><i aria-label="spock" class="fa-regular fa-hand-spock"></i>
+            </span>
+        <div class="score-area">
+            <p class="scores">Player <span id="scores">0</span></p>
+            <p class="scores">Computer <span id="scores">0</span></p>
+        </div>
+    </section>
+
+
+ 
+    <script src="assets/js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,144 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap);
+
+*{
+    background-color: rgb(133, 83, 83);
+    font-family: 'Roboto', sans-serif;
+    color: #081d31;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.logo {
+    text-align: center;
+    font-size: 4.5rem;
+}
+
+.game {
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.icon {
+    display: inline-block;
+    padding: .5rem;
+}
+
+.game-area {
+    background-color: #202122;
+    width: 85%;
+    height: 65vh;
+    max-height: 450px;
+    max-width: 830px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: none;
+}
+
+.score-area {
+    width: 85%;
+    margin: 30px auto;
+}
+
+.btn {
+    width: 220px;
+    height: 60px;
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    color: white;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+/* Styling to make whole game fit on mobile screens */
+@media screen and (max-width: 425px) {
+    .logo-bottom {
+        margin-bottom: 1rem;
+    }
+    #game-area {
+        padding: 0rem;
+        margin: auto;    
+        width: 90%;
+    }
+    p#winner-message-area {
+        margin-bottom: -1.5rem;
+    }
+  }
+
+/* main game area containing icons */
+#game-area {
+    position: relative;
+}
+
+.icon {
+    display: inline-block;
+    padding: .5rem;
+}
+
+.text-label {
+    position: relative;
+    bottom: 1rem;
+}
+
+.icon {
+    cursor:pointer;
+    font-size: 5rem;
+    transition: 100ms;
+}
+
+.icon:hover {
+    transform: scale(1.3);
+    color: rgb(255, 0, 0)
+}
+
+/* Player names and scoreboxes */
+#score-area {
+    width: 75%;
+    max-width: 20rem;
+    margin: 0 auto 0 auto;
+    height: 260px;
+    
+}
+
+#player1 {
+    margin-top: 3rem;
+    float: left;
+}
+
+#scorebox-p {
+    border-radius: 1rem;
+    border: 8px solid red;
+    width: 4rem;
+    padding: 0 1rem 1rem 1rem;
+}
+
+#player1-score {
+    font-size: xx-large;
+}
+
+.score {
+    height: 5rem;
+}
+
+#cpu {
+    margin-top: 3rem;
+    float: right;
+}
+
+#scorebox-c {
+    border-radius: 1rem;
+    border: 8px solid grey;
+    width: 4rem;
+    padding: 0 1rem 1rem 1rem;
+}
+
+#cpu-score {
+    font-size: xx-large;
+    }
+
+
+
+
